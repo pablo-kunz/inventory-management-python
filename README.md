@@ -14,8 +14,11 @@ Console-based inventory management application built in Python for a hardware st
 ---
 
 ## Project Structure
+
+```
 ├── main.py         # Entry point: menu and program flow
 └── inventory.py    # Core logic: load, search, update and report functions
+```
 
 ---
 
@@ -61,13 +64,15 @@ python3 main.py
 ---
 
 ## Example Output
-========== MAIN MENU ==========
 
-Initial tool stock load
-Display inventory
-Check stock
-Out-of-stock report
-Add new product
-Update stock (Sale / Restock)
-Exit
+```
+========== MAIN MENU ==========
+1. Initial tool stock load
+2. Display inventory
+3. Check stock
+4. Out-of-stock report
+5. Add new product
+6. Update stock (Sale / Restock)
+7. Exit
 ================================
+```
