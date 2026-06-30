@@ -14,7 +14,8 @@ Console-based inventory management application built in Python for a hardware st
 ---
 
 ## Project Structure
-└── main.py    # Single-file application with all functions and main menu
+├── main.py         # Entry point: menu and program flow
+└── inventory.py    # Core logic: load, search, update and report functions
 
 ---
 
@@ -27,7 +28,8 @@ Console-based inventory management application built in Python for a hardware st
 ## How to Run
 
 1. Clone or download this repository.
-2. Run from the terminal:
+2. Make sure both files are in the same folder.
+3. Run from the terminal:
 
 ```bash
 python3 main.py
@@ -49,6 +51,7 @@ python3 main.py
 
 ## Key Concepts Applied
 
+- Modular design separating logic (`inventory.py`) from program flow (`main.py`)
 - Functions for each menu option
 - Dictionaries to store tool data (`name`, `quantity`)
 - `try/except` for robust input validation
@@ -60,12 +63,11 @@ python3 main.py
 ## Example Output
 ========== MAIN MENU ==========
 
-Load initial stock
+Initial tool stock load
 Display inventory
-Search tool
+Check stock
 Out-of-stock report
 Add new product
-Update stock
+Update stock (Sale / Restock)
 Exit
-
-===============================
+================================
